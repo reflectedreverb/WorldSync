@@ -3,7 +3,7 @@
 An addon for **World of Warcraft: Forever** that keeps your group on the same layer (world copy).
 
 - **Refresh prompt:** when the game offers a world refresh, WorldSync shows a clear prompt with the countdown and a **Refresh now** button. The button is disabled while you're in combat, flying or falling. Blizzard's own small message on the left of the screen still works too.
-- **Group list:** a small list of your group, showing each member's zone and whether they're in your world copy. The game only reports world copies for people in your zone, so meet up in the same zone to compare.
+- **Group list (optional, off by default):** type `/ws` to open it, or set it to show when you join a group or someone is on another layer. It shows each member's zone and whether they're on your layer (world copy). The game only reports this for people in your zone, so meet up in the same zone to compare.
 - **Alerts:** optional chat lines and sounds when you move to a new world copy, or when the whole group is together. Chat lines are only shown to you.
 
 ## Install

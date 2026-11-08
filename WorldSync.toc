@@ -4,6 +4,7 @@
 ## Author: ReflectedReverb
 ## Version: @project-version@
 ## X-Curse-Project-ID: 1790737
+## X-Wago-ID: aN0agP6j
 ## IconTexture: Interface\Icons\INV_Misc_GroupNeedMore
 ## SavedVariables: WorldSyncDB
 
