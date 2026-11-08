@@ -1,0 +1,5 @@
+package-as: WorldSync
+
+ignore:
+  - README.md
+  - media
