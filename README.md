@@ -43,4 +43,4 @@ If Refresh now doesn't move you, use Blizzard's message on the left of the scree
 
 Copyright (C) 2026 ReflectedReverb.
 
-WorldSync is free software under the [GNU General Public License v3.0](LICENSE): you can use, change and share it, and any version you release must stay under the same license.
+WorldSync is free software under the [GNU General Public License v3.0](https://github.com/reflectedreverb/WorldSync/blob/main/LICENSE): you can use, change and share it, and any version you release must stay under the same license.
