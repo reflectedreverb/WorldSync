@@ -1,11 +1,15 @@
 ## Interface: 16001
 ## Title: WorldSync
-## Notes: Keep your group together on the same layer (world copy, shard). See who's with you or phased apart, and hop onto your group's layer by accepting the world refresh in one click. Sync up for questing and grouping together.
+## Notes: Know when you change layer, and hop onto your group's layer by accepting the world refresh in one click. Light and out of the way.
 ## Author: ReflectedReverb
 ## Version: @project-version@
 ## X-Curse-Project-ID: 1790737
 ## X-Wago-ID: aN0agP6j
+## X-Website: https://github.com/reflectedreverb
 ## IconTexture: Interface\Icons\INV_Misc_GroupNeedMore
+## AddonCompartmentFunc: WorldSync_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: WorldSync_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: WorldSync_OnAddonCompartmentLeave
 ## SavedVariables: WorldSyncDB
 
 WorldSync.lua

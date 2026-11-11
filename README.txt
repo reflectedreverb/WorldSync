@@ -1,16 +1,16 @@
 WorldSync
 A ReflectedReverb Addon, for World of Warcraft: Forever
 
-WorldSync keeps your group on the same layer (world copy).
+WorldSync keeps you informed about layers and gets your group onto the same one.
 
 When the game offers a world refresh, WorldSync shows a clear prompt with the
 countdown and a Refresh now button. Refresh now is disabled while you're in
 combat, flying or falling. Blizzard's own small message on the left of the
 screen still works too.
 
-WorldSync can also show a small list of your group with each member's zone and
-whether they're in your world copy. The game only reports world copies for
-people in your zone, so meet up in the same zone to compare.
+A chat line tells you when a refresh moves you to a new layer, and when your
+whole group is on one layer. Blizzard's party frames already mark a member who
+is on another layer: their frame fades and a phasing icon appears.
 
 
 INSTALL
@@ -23,18 +23,13 @@ INSTALL
 
 USE
 
-/ws            Show the group list
-/ws demo       Play a 20 second demo with a made-up group
-/ws options    Open the settings (also under Options > AddOns > WorldSync)
+/ws            Open the settings (also under Options > AddOns > WorldSync,
+               or the AddOns button by the minimap)
+/ws demo       Play a 20 second demo: the prompt and the messages
+/ws diag       Print a short status for bug reports (no names)
 
 
 SETTINGS
-
-Group list
-  Show the list           Never (default), on join or when apart,
-                          always in a group, or only when apart
-  Show after joining for  How long the list stays after a join
-  Also for raid groups    Show it when joining raids too
 
 World refresh
   Refresh prompt          The clear prompt (on by default)
@@ -42,8 +37,8 @@ World refresh
                           out of combat and on the ground (off by default)
 
 Alerts
-  Message when moved      A chat line when you move to a new world copy
-  Message when together   A chat line when the whole group is together
+  Message when moved      A chat line when you move to a new layer
+  Message when together   A chat line when the whole group is on one layer
   Sound when moved / together   Optional sounds (none by default)
 
 Chat lines from WorldSync are only shown to you.
@@ -53,3 +48,7 @@ NOTES
 
 If Refresh now doesn't move you, use Blizzard's message on the left of the
 screen instead.
+
+MORE ADDONS
+
+More addons by ReflectedReverb: https://github.com/reflectedreverb
